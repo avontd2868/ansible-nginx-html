@@ -1,0 +1,9 @@
+server {
+  listen {{ listen }};
+  server_name {{ server_name }};
+
+  location / {
+    root /var/www;
+    index   index.html index.htm;
+  }
+}
